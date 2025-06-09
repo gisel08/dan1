@@ -1,0 +1,13 @@
+<div class="bg-slate-100 overflow-y-scroll w-screen h-screen antialiased text-slate-300 selection:bg-blue-600 selection:text-white">
+  <div class="flex relative w-screen">
+
+      <!-- Menú lateral -->
+      <gifs-side-menu-component class="w-[200px]"></gifs-side-menu-component>
+
+      <!-- Contenedor principal más pequeño -->
+      <div class="ml-[150px] px-2 flex flex-col flex-1 h-screen w-[calc(100vw-200px)] text-slate-800">
+          <router-outlet></router-outlet>
+      </div>
+
+  </div>
+</div>
